@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/egdsonli/argvn.com/
-    - /bin/cp * $DEPLOYPATH
+    - /usr/bin/rsync -Paz * $DEPLOYPATH
