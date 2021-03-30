@@ -14,8 +14,8 @@
   <meta property="og:title" content="ARGVN" />
   <meta property="og:description" content="Web Developer" />
   <meta property="og:image" itemprop="image" content="https://argvn.com/img/arg_ic.png" />
-  <meta name="theme-color" content="#FFFFFF" />
   <meta property="og:updated_time" content="1440432930" />
+  <meta name="theme-color" content="#FFFFFF" />
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -131,6 +131,11 @@
     }
     .splide{
       cursor: grab;
+    }
+    @media screen and (max-width: 600px) {
+      .splide__pagination{
+        display: none !important;
+      }
     }
   </style>
 </head>
